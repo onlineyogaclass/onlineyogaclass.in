@@ -1,0 +1,347 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#FFF1F2">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="images/logo.webp">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Success Stories | Clinical Yoga with Shringarika</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: white; }
+        h1, h2, h3, .serif { font-family: 'Playfair Display', serif; }
+        .testimonial-card { transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+        .testimonial-card:hover { transform: translateY(-8px); border-color: #db2777; box-shadow: 0 20px 25px -5px rgba(219, 39, 119, 0.1); }
+        .star-rating { color: #fbbf24; font-size: 0.85rem; }
+.dropdown:hover .dropdown-menu { display: block; }
+        .pink-theme { background-color: #FFF1F2; }
+    </style>
+</head>
+<body>
+<nav class="sticky top-0 z-50 bg-white border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-24">
+                <div class="flex items-center space-x-3">
+                    <img src="images/logo.webp" alt="Shringarika Logo" class="h-12 w-12 rounded-full border border-pink-200">
+                    <div>
+                        <span class="block text-xl font-extrabold text-gray-900 leading-none">SHRINGARIKA</span>
+                        <span class="text-[10px] uppercase tracking-widest text-pink-600 font-bold">Clinical Research Specialist</span>
+                    </div>
+                </div>
+                <div class="md:hidden flex items-center">
+    <button id="mobile-menu-button" class="text-gray-600 focus:outline-none p-2">
+        <i class="fas fa-bars text-2xl"></i>
+    </button>
+</div>
+                <div class="hidden md:flex items-center space-x-6 text-sm font-bold text-gray-600">
+                    <a href="index.html" class="text-pink-600">Home</a>
+                    <a href="about.html" class="hover:text-pink-600 transition">About</a>
+                    
+                    <div class="relative dropdown">
+    <button class="flex items-center hover:text-pink-600 transition py-8">
+        Programs <i class="fas fa-chevron-down ml-1 text-[10px]"></i>
+    </button>
+    <div class="dropdown-menu hidden absolute left-1/2 -translate-x-1/2 w-[300px] bg-white border border-gray-50 shadow-[0_20px_50px_rgba(0,0,0,0.1)] rounded-3xl overflow-hidden flex z-[100]">
+        <div class="w-full py-4 max-h-[400px] overflow-y-auto">
+            <a href="programs.html#infertility" class="flex items-center px-6 py-2 hover:bg-pink-50 group">
+                <i class="fas fa-baby text-pink-400 w-6 text-center mr-3"></i>
+                <span class="text-gray-700 group-hover:text-pink-600">Infertility</span>
+            </a>
+            <a href="programs.html#pcos" class="flex items-center px-6 py-2 hover:bg-pink-50 group">
+                <i class="fas fa-female text-pink-500 w-6 text-center mr-3"></i>
+                <span class="text-gray-700 group-hover:text-pink-600">PCOS</span>
+            </a>
+            <a href="programs.html#pregnancy" class="flex items-center px-6 py-2 hover:bg-pink-50 group">
+                <i class="fas fa-universal-access text-pink-400 w-6 text-center mr-3"></i>
+                <span class="text-gray-700 group-hover:text-pink-600">Pregnancy</span>
+            </a>
+            <a href="programs.html#ivf" class="flex items-center px-6 py-2 hover:bg-pink-50 group">
+                <i class="fas fa-dna text-blue-400 w-6 text-center mr-3"></i>
+                <span class="text-gray-700 group-hover:text-pink-600">Yoga during IVF</span>
+            </a>
+            <a href="programs.html#elderly" class="flex items-center px-6 py-2 hover:bg-pink-50 group">
+                <i class="fas fa-walking text-orange-400 w-6 text-center mr-3"></i>
+                <span class="text-gray-700 group-hover:text-pink-600">Elderly Care</span>
+            </a>
+            <a href="programs.html#thyroid" class="flex items-center px-6 py-2 hover:bg-pink-50 group">
+                <i class="fas fa-leaf text-green-400 w-6 text-center mr-3"></i>
+                <span class="text-gray-700 group-hover:text-pink-600">Thyroid</span>
+            </a>
+            <a href="programs.html#diabetes" class="flex items-center px-6 py-2 hover:bg-pink-50 group">
+                <i class="fas fa-tint text-blue-500 w-6 text-center mr-3"></i>
+                <span class="text-gray-700 group-hover:text-pink-600">Diabetes</span>
+            </a>
+            <a href="programs.html#hypertension" class="flex items-center px-6 py-2 hover:bg-pink-50 group">
+                <i class="fas fa-heartbeat text-red-400 w-6 text-center mr-3"></i>
+                <span class="text-gray-700 group-hover:text-pink-600">Hypertension</span>
+            </a>
+            <a href="programs.html#stress" class="flex items-center px-6 py-2 hover:bg-pink-50 group">
+                <i class="fas fa-brain text-purple-400 w-6 text-center mr-3"></i>
+                <span class="text-gray-700 group-hover:text-pink-600">Stress Management</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+                    <a href="blogs.html" class="hover:text-pink-600 transition">Blogs</a>
+                    <a href="contact.html" class="hover:text-pink-600 transition">Contact</a>
+                    <a href="programs.html" class="hover:text-pink-600 transition">Pricing</a>
+                    
+                    <div class="flex items-center space-x-3">
+                        <a href="programs.html" class="bg-pink-600 text-white px-5 py-2.5 rounded-full hover:bg-pink-700 shadow-md transition">Book Now</a>
+                        <a href="https://wa.me/919559827280" class="text-green-600 font-bold border-2 border-green-600 px-5 py-2.5 rounded-full hover:bg-green-50 transition">Book a Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div id="mobile-menu" class="hidden fixed inset-0 z-[100] bg-white p-6 flex flex-col transform translate-x-full transition-transform duration-300">
+    <div class="flex justify-between items-center mb-8">
+        <span class="font-extrabold text-xl text-gray-900">MENU</span>
+        <button id="close-menu" class="text-3xl text-gray-600">&times;</button>
+    </div>
+    <div class="flex flex-col space-y-6 text-lg font-bold text-gray-700">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programs.html">Programs</a>
+        <a href="blogs.html">Blogs</a>
+        <a href="contact.html">Contact</a>
+        <hr class="border-gray-100">
+        <a href="https://wa.me/919559827280" class="bg-pink-600 text-white px-6 py-4 rounded-full text-center shadow-lg">Book Now</a>
+    </div>
+</div>
+    </nav>
+
+    <header class="py-24 text-center px-6 border-b border-slate-800">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-pink-500 font-bold tracking-widest uppercase mb-4">The Healing Circle</h2>
+            <h1 class="text-5xl md:text-7xl font-black mb-8 italic serif">Your Path to Recovery</h1>
+            <p class="text-gray-400 text-xl leading-relaxed italic">
+                "Every breath is a second chance. We have walked this path with over 1000+ souls, 
+                witnessing the body’s incredible power to heal when guided by science and soul."
+            </p>
+            <div class="mt-8 inline-block px-6 py-2 border border-pink-500/30 rounded-full text-pink-400 text-sm font-medium">
+                Now, it is your turn to be a part of this healing.
+            </div>
+        </div>
+    </header>
+
+    <section class="py-10 border-b border-slate-800 bg-slate-900/50">
+        <div class="max-w-7xl mx-auto px-6 flex flex-wrap justify-center gap-12 text-center">
+            <div><span class="block text-3xl font-bold serif italic text-pink-500">4.9/5</span><span class="text-xs uppercase tracking-widest text-gray-500">Average Rating</span></div>
+            <div><span class="block text-3xl font-bold serif italic text-pink-500">13+</span><span class="text-xs uppercase tracking-widest text-gray-500">Countries Represented</span></div>
+            <div><span class="block text-3xl font-bold serif italic text-pink-500">100%</span><span class="text-xs uppercase tracking-widest text-gray-500">Clinical Focus</span></div>
+        </div>
+    </section>ansition">View Program</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 max-w-7xl mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="testimonial-card bg-slate-800/40 p-8 rounded-[2.5rem] border border-slate-800 flex flex-col justify-between">
+                <div>
+                    <div class="star-rating mb-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <span class="ml-2 text-gray-500">5.0</span></div>
+                    <p class="text-gray-300 italic mb-8">"Managed to reverse my PCOD symptoms in 6 months. Shringarika's deep understanding of hormonal rhythms is life-changing."</p>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="w-10 h-10 bg-pink-500 rounded-full flex items-center justify-center font-bold">SN</div>
+                    <div><p class="font-bold">Sneha Nair</p><p class="text-[10px] text-gray-500 uppercase tracking-widest">PCOS, Bangalore</p></div>
+                </div>
+            </div>
+
+            <div class="testimonial-card bg-slate-800/40 p-8 rounded-[2.5rem] border border-slate-800 flex flex-col justify-between">
+                <div>
+                    <div class="star-rating mb-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i> <span class="ml-2 text-gray-500">4.0</span></div>
+                    <p class="text-gray-300 italic mb-8">"The sessions are intense but effective. I've seen a significant drop in my TSH levels. Only wish the time zones were easier!"</p>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="w-10 h-10 bg-indigo-500 rounded-full flex items-center justify-center font-bold">EM</div>
+                    <div><p class="font-bold">Elena Moretti</p><p class="text-[10px] text-gray-500 uppercase tracking-widest">Thyroid Care, Italy</p></div>
+                </div>
+            </div>
+
+            <div class="testimonial-card bg-slate-800/40 p-8 rounded-[2.5rem] border border-slate-800 flex flex-col justify-between">
+                <div>
+                    <div class="star-rating mb-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> <span class="ml-2 text-gray-500">4.6</span></div>
+                    <p class="text-gray-300 italic mb-8">"Scientific, calm, and result-oriented. My chronic back pain from 12-hour desk jobs is finally gone."</p>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="w-10 h-10 bg-emerald-500 rounded-full flex items-center justify-center font-bold">RD</div>
+                    <div><p class="font-bold">Robert Dawson</p><p class="text-[10px] text-gray-500 uppercase tracking-widest">LIFESTYLE, USA</p></div>
+                </div>
+            </div>
+
+            <div class="testimonial-card bg-slate-800/40 p-8 rounded-[2.5rem] border border-slate-800 flex flex-col justify-between">
+                <div>
+                    <div class="star-rating mb-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <span class="ml-2 text-gray-500">5.0</span></div>
+                    <p class="text-gray-300 italic mb-8">"We struggled with infertility for 3 years. These clinical protocols prepared my body for a successful natural conception."</p>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="w-10 h-10 bg-rose-500 rounded-full flex items-center justify-center font-bold">AK</div>
+                    <div><p class="font-bold">Anjali Kapoor</p><p class="text-[10px] text-gray-500 uppercase tracking-widest">Fertility, Delhi</p></div>
+                </div>
+            </div>
+
+            <div class="testimonial-card bg-slate-800/40 p-8 rounded-[2.5rem] border border-slate-800 flex flex-col justify-between">
+                <div>
+                    <div class="star-rating mb-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i> <span class="ml-2 text-gray-500">4.2</span></div>
+                    <p class="text-gray-300 italic mb-8">"Great depth of knowledge. The breathing techniques for anxiety are the only thing that works for my panic attacks."</p>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="w-10 h-10 bg-amber-500 rounded-full flex items-center justify-center font-bold">CH</div>
+                    <div><p class="font-bold">Claire Hugo</p><p class="text-[10px] text-gray-500 uppercase tracking-widest">STRESS MANAGEMENT, France</p></div>
+                </div>
+            </div>
+
+            <div class="testimonial-card bg-slate-800/40 p-8 rounded-[2.5rem] border border-slate-800 flex flex-col justify-between">
+                <div>
+                    <div class="star-rating mb-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> <span class="ml-2 text-gray-500">4.8</span></div>
+                    <p class="text-gray-300 italic mb-8">"As a researcher myself, I appreciate that Shringarika doesn't just teach poses, she explains the physiology behind them."</p>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center font-bold">Dr</div>
+                    <div><p class="font-bold">Dr. Alexei S.</p><p class="text-[10px] text-gray-500 uppercase tracking-widest">LIFESTYLE, Russia</p></div>
+                </div>
+            </div>
+
+            <div class="testimonial-card bg-slate-800/40 p-8 rounded-[2.5rem] border border-slate-800 flex flex-col justify-between">
+                <div>
+                    <div class="star-rating mb-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <span class="ml-2 text-gray-500">5.0</span></div>
+                    <p class="text-gray-300 italic mb-8">"The only yoga specialist I trust for clinical issues. My AMH levels improved drastically after her 3-month intensive."</p>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="w-10 h-10 bg-teal-500 rounded-full flex items-center justify-center font-bold">SM</div>
+                    <div><p class="font-bold">Sarah Miller</p><p class="text-[10px] text-gray-500 uppercase tracking-widest">Fertility, London</p></div>
+                </div>
+            </div>
+
+            <div class="testimonial-card bg-slate-800/40 p-8 rounded-[2.5rem] border border-slate-800 flex flex-col justify-between">
+                <div>
+                    <div class="star-rating mb-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> <span class="ml-2 text-gray-500">4.5</span></div>
+                    <p class="text-gray-300 italic mb-8">"I feel 10 years younger. My mobility has returned and I can finally walk without knee pain."</p>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center font-bold">RV</div>
+                    <div><p class="font-bold">Ramesh Varma</p><p class="text-[10px] text-gray-500 uppercase tracking-widest">Elderly Care, Pune</p></div>
+                </div>
+            </div>
+
+            </div>
+
+        <div class="mt-32 relative overflow-hidden bg-gradient-to-br from-pink-900/40 to-slate-900 border border-pink-500/20 rounded-[4rem] p-12 md:p-20 text-center">
+            <div class="relative z-10">
+                <h2 class="text-4xl md:text-6xl font-bold mb-6 serif italic">Your healing story begins here.</h2>
+                <p class="text-pink-100/70 text-lg mb-10 max-w-2xl mx-auto">
+                    You've seen the science, you've read the stories. Now, let’s find the rhythm that works for your body. Whether you are seeking a miracle or just a moment of peace, we are here to hold the space for you.
+                </p>
+                <div class="flex flex-wrap justify-center gap-6">
+                    <a href="https://wa.me/919559827280" class="bg-pink-600 text-white px-10 py-5 rounded-full font-bold hover:bg-pink-700 transition-all shadow-xl shadow-pink-600/20">Start Your Journey</a>
+                    <a href="contact.html" class="bg-white/10 backdrop-blur-md text-white px-10 py-5 rounded-full font-bold hover:bg-white/20 transition-all border border-white/20">Talk to Our Team</a>
+                </div>
+            </div>
+            <div class="absolute -top-24 -right-24 w-96 h-96 bg-pink-600/10 rounded-full blur-3xl"></div>
+            <div class="absolute -bottom-24 -left-24 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl"></div>
+        </div>
+    </section>
+
+    <footer class="bg-[#0f172a] text-white py-16 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-12">
+            <div class="space-y-6">
+                <div>
+                    <span class="block text-2xl font-extrabold tracking-tight">SHRINGARIKA.</span>
+                    <span class="text-[10px] uppercase tracking-[0.2em] text-gray-400 font-bold">CLINICAL RESEARCH SPECIALIST</span>
+                </div>
+                <p class="text-gray-400 text-sm leading-relaxed max-w-sm">
+                    Curing Infertility and PCOS naturally by establishing the bridge between ancient Yoga and modern Clinical Science. Serving clients globally from Varanasi to the USA.
+                </p>
+                <div class="space-y-3">
+                    <a href="mailto:onlineyogaclassbyshri@gmail.com" class="flex items-center text-sm text-gray-400 hover:text-white transition">
+                        <i class="fas fa-envelope text-green-500 mr-3"></i> onlineyogaclassbyshri@gmail.com
+                    </a>
+                    <a href="https://onlineyogaclass.in" class="flex items-center text-sm text-gray-400 hover:text-white transition">
+                        <i class="fas fa-globe text-green-500 mr-3"></i> onlineyogaclass.in
+                    </a>
+                </div>
+                <div class="flex space-x-5 pt-2">
+    <a href="https://www.instagram.com/onlineyogaclass.in?igsh=ZTQ0MmUxZXFoN2Vr&utm_source=qr" target="_blank" class="text-gray-400 hover:text-pink-500 text-xl transition">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=61574342103342" target="_blank" class="text-gray-400 hover:text-blue-500 text-xl transition">
+        <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://youtube.com/@onlineyogaclassbyshri?si=YA9V1IEIRAr3dVNv" target="_blank" class="text-gray-400 hover:text-red-500 text-xl transition">
+        <i class="fab fa-youtube"></i>
+    </a>
+    <a href="https://in.linkedin.com/in/shringarika-mishra-400607224" target="_blank" class="text-gray-400 hover:text-blue-700 text-xl transition">
+        <i class="fab fa-linkedin"></i>
+    </a>
+</div>
+            </div>
+
+            <div>
+                <h3 class="font-bold text-xs uppercase tracking-widest mb-8 text-white">NAVIGATION</h3>
+                <ul class="space-y-4 text-sm text-gray-400">
+                    <li><a href="index.html" class="hover:text-white transition">Home</a></li>
+                    <li><a href="about.html" class="hover:text-white transition">About Shringarika</a></li>
+                    <li><a href="programs.html" class="hover:text-white transition">Clinical Programs</a></li>
+                    <li><a href="blogs.html" class="hover:text-white transition">Research & Blogs</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="font-bold text-xs uppercase tracking-widest mb-8 text-white">LEGAL</h3>
+                <ul class="space-y-4 text-sm text-gray-400">
+                    <li><a href="privacy-policy.html" class="hover:text-white transition">Privacy Policy</a></li>
+                    <li><a href="terms.html" class="hover:text-white transition">Terms & Conditions</a></li>
+                    <li><a href="refund.html" class="hover:text-white transition">Refund Policy</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-6 mt-16 pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-6">
+            <p class="text-[11px] text-gray-500 uppercase tracking-widest">
+                &copy; 2026 Shringarika Mishra. All Rights Reserved.
+            </p>
+            <p class="text-[10px] text-gray-600 max-w-2xl text-center md:text-right leading-relaxed">
+            </p>
+        </div>
+    </footer>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js');
+    });
+  }
+</script>
+<script>
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const closeMenuButton = document.getElementById('close-menu');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    // Open Menu
+    mobileMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.remove('hidden');
+        // Small timeout to allow the transition to trigger
+        setTimeout(() => {
+            mobileMenu.classList.remove('translate-x-full');
+        }, 10);
+    });
+
+    // Close Menu
+    closeMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.add('translate-x-full');
+        // Wait for transition to finish before hiding
+        setTimeout(() => {
+            mobileMenu.classList.add('hidden');
+        }, 300);
+    });
+</script>
+
+</body>
+</html>

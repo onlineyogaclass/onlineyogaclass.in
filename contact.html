@@ -1,0 +1,310 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#FFF1F2">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="images/logo.webp">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Clinical Yoga with Shringarika & Team</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #ffffff; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
+        .pink-theme { background-color: #FFF1F2; }
+        .dropdown:hover .dropdown-menu { display: block; }
+        .floating-wa { position: fixed; bottom: 20px; right: 20px; z-index: 1000; transition: transform 0.3s; }
+        .floating-wa:hover { transform: scale(1.1); }
+    </style>
+<link rel="preload" as="image" href="images/shringarika.webp" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" media="print" onload="this.media='all'">
+</head>
+<body class="text-gray-800 overflow-x-hidden">
+
+    <nav class="sticky top-0 z-50 bg-white border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-24">
+                <div class="flex items-center space-x-3">
+                    <img src="images/logo.webp" alt="Shringarika Logo" width="48" height="48" class="h-12 w-12 rounded-full border border-pink-200">
+                    <div>
+                        <span class="block text-xl font-extrabold text-gray-900 leading-none">SHRINGARIKA</span>
+                        <span class="text-[10px] uppercase tracking-widest text-pink-600 font-bold">Clinical Research Specialist</span>
+                    </div>
+                </div>
+                <div class="md:hidden flex items-center">
+    <button id="mobile-menu-button" class="text-gray-600 focus:outline-none p-2">
+        <i class="fas fa-bars text-2xl"></i>
+    </button>
+</div>
+                <div class="hidden md:flex items-center space-x-6 text-sm font-bold text-gray-600">
+                    <a href="index.html" class="hover:text-pink-600 transition">Home</a>
+                    <a href="about.html" class="hover:text-pink-600 transition">About</a>
+                    
+                    <div class="relative dropdown">
+    <button class="flex items-center hover:text-pink-600 transition py-8">
+        Programs <i class="fas fa-chevron-down ml-1 text-[10px]"></i>
+    </button>
+    <div class="dropdown-menu hidden absolute left-1/2 -translate-x-1/2 w-[300px] bg-white border border-gray-50 shadow-[0_20px_50px_rgba(0,0,0,0.1)] rounded-3xl overflow-hidden flex z-[100]">
+        <div class="w-full py-4 max-h-[400px] overflow-y-auto">
+            <a href="programs.html#infertility" class="flex items-center px-6 py-2 hover:bg-pink-50 group">
+                <i class="fas fa-baby text-pink-400 w-6 text-center mr-3"></i>
+                <span class="text-gray-700 group-hover:text-pink-600">Infertility</span>
+            </a>
+            <a href="programs.html#pcos" class="flex items-center px-6 py-2 hover:bg-pink-50 group">
+                <i class="fas fa-female text-pink-500 w-6 text-center mr-3"></i>
+                <span class="text-gray-700 group-hover:text-pink-600">PCOS</span>
+            </a>
+            <a href="programs.html#pregnancy" class="flex items-center px-6 py-2 hover:bg-pink-50 group">
+                <i class="fas fa-universal-access text-pink-400 w-6 text-center mr-3"></i>
+                <span class="text-gray-700 group-hover:text-pink-600">Pregnancy</span>
+            </a>
+            <a href="programs.html#ivf" class="flex items-center px-6 py-2 hover:bg-pink-50 group">
+                <i class="fas fa-dna text-blue-400 w-6 text-center mr-3"></i>
+                <span class="text-gray-700 group-hover:text-pink-600">Yoga during IVF</span>
+            </a>
+            <a href="programs.html#elderly" class="flex items-center px-6 py-2 hover:bg-pink-50 group">
+                <i class="fas fa-walking text-orange-400 w-6 text-center mr-3"></i>
+                <span class="text-gray-700 group-hover:text-pink-600">Elderly Care</span>
+            </a>
+            <a href="programs.html#thyroid" class="flex items-center px-6 py-2 hover:bg-pink-50 group">
+                <i class="fas fa-leaf text-green-400 w-6 text-center mr-3"></i>
+                <span class="text-gray-700 group-hover:text-pink-600">Thyroid</span>
+            </a>
+            <a href="programs.html#diabetes" class="flex items-center px-6 py-2 hover:bg-pink-50 group">
+                <i class="fas fa-tint text-blue-500 w-6 text-center mr-3"></i>
+                <span class="text-gray-700 group-hover:text-pink-600">Diabetes</span>
+            </a>
+            <a href="programs.html#hypertension" class="flex items-center px-6 py-2 hover:bg-pink-50 group">
+                <i class="fas fa-heartbeat text-red-400 w-6 text-center mr-3"></i>
+                <span class="text-gray-700 group-hover:text-pink-600">Hypertension</span>
+            </a>
+            <a href="programs.html#stress" class="flex items-center px-6 py-2 hover:bg-pink-50 group">
+                <i class="fas fa-brain text-purple-400 w-6 text-center mr-3"></i>
+                <span class="text-gray-700 group-hover:text-pink-600">Stress Management</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+                    <a href="blogs.html" class="hover:text-pink-600 transition">Blogs</a>
+                    <a href="contact.html" class="text-pink-600">Contact</a>
+                    <a href="programs.html" class="hover:text-pink-600 transition">Pricing</a>
+                    
+                    <div class="flex items-center space-x-3">
+                        <a href="programs.html" class="bg-pink-600 text-white px-5 py-2.5 rounded-full hover:bg-pink-700 shadow-md transition">Book Now</a>
+                        <a href="https://wa.me/919559827280" class="text-green-600 font-bold border-2 border-green-600 px-5 py-2.5 rounded-full hover:bg-green-50 transition">Book a Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div id="mobile-menu" class="hidden fixed inset-0 z-[100] bg-white transform translate-x-full transition-transform duration-300 ease-in-out w-full h-screen flex flex-col">
+    
+   <div class="flex justify-between items-center px-5 py-4 border-b border-gray-100">
+    <div class="flex items-center space-x-3">
+        <img src="images/logo.webp" alt="Shringarika Logo" class="h-10 w-10 rounded-full border border-pink-200">
+        <span class="font-extrabold text-lg text-gray-900 tracking-tight">SHRINGARIKA</span>
+    </div>
+    <button id="close-menu" class="w-10 h-10 flex items-center justify-center text-gray-500 hover:text-pink-600 focus:outline-none -mr-2">
+        <i class="fas fa-times text-2xl"></i>
+    </button>
+</div>
+    
+    <div class="flex-1 overflow-y-auto p-6">
+        <div class="flex flex-col space-y-6 text-lg font-bold text-gray-700">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="programs.html">Programs</a>
+            <a href="blogs.html">Blogs</a>
+            <a href="contact.html" class="text-pink-600">Contact</a>
+            <hr class="border-gray-100">
+            <a href="https://wa.me/919559827280" class="bg-pink-600 text-white px-6 py-4 rounded-full text-center shadow-lg">Book Now</a>
+        </div>
+    </div>
+</div>
+    <header class="pink-theme py-12 md:py-20 w-full" style="min-height: 300px;">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h1 class="text-3xl md:text-6xl font-bold mb-4 leading-tight">Let's Start Your <span class="text-pink-600 italic">Healing Journey</span></h1>
+            <p class="text-base md:text-lg text-gray-600 max-w-2xl mx-auto px-2">Join our clinical team for a research-backed approach to wellness. We are here to support your recovery every step of the way.</p>
+        </div>
+    </header>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-start">
+            
+            <div>
+                <img src="images/shringarika.webp" fetchpriority="high" width="448" height="448" alt="Shringarika Mishra" class="rounded-3xl shadow-2xl mb-8 w-full max-w-md mx-auto md:mx-0">
+                <h2 class="text-3xl font-bold mb-6">Why Choose Our Clinical Team?</h2>
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <i class="fas fa-check-circle text-pink-500 mt-1 mr-3"></i>
+                        <p><strong>Research-Backed:</strong> Led by a BHU Research Scholar and Gold Medalist.</p>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check-circle text-pink-500 mt-1 mr-3"></i>
+                        <p><strong>Team-Led Support:</strong> Personalized attention from a specialized team of yoga experts.</p>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check-circle text-pink-500 mt-1 mr-3"></i>
+                        <p><strong>Global Reach:</strong> Serving clients from India, USA, UK, and beyond.</p>
+                    </li>
+                </ul>
+                <div class="mt-10 p-6 bg-green-50 border-l-4 border-green-500 rounded-r-xl">
+                    <p class="text-green-800 font-semibold italic">"Join us to see real clinical results. We don't just teach yoga; we engineer recovery."</p>
+                </div>
+            </div>
+
+            <div class="bg-gray-50 p-8 md:p-12 rounded-[3rem] shadow-sm border border-gray-100">
+                <h3 class="text-2xl font-bold mb-8">Get In Touch</h3>
+                <div class="space-y-8">
+                    <div class="flex items-center group">
+                        <div class="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center mr-4 group-hover:bg-pink-600 transition">
+                            <i class="fab fa-whatsapp text-pink-600 group-hover:text-white text-xl"></i>
+                        </div>
+                        <div>
+                            <p class="text-xs uppercase font-bold text-gray-400">WhatsApp & Call</p>
+                            <a href="https://wa.me/919559827280?text=Hello%20Shringarika,%20I%20want%20to%20know%20more%20about%20your%20clinical%20yoga%20programs." class="text-xl font-bold hover:text-pink-600">+91 9559827280</a>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center group">
+                        <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4 group-hover:bg-blue-600 transition">
+                            <i class="fas fa-envelope text-blue-600 group-hover:text-white text-xl"></i>
+                        </div>
+                        <div>
+    <p class="text-xs uppercase font-bold text-gray-400">Email Address</p>
+    <a href="mailto:onlineyogaclassbyshri@gmail.com" class="text-xl font-bold hover:text-blue-600">onlineyogaclassbyshri@gmail.com</a>
+    
+    <div class="flex space-x-6 mt-6">
+        <a href="https://www.instagram.com/onlineyogaclass.in?igsh=ZTQ0MmUxZXFoN2Vr&utm_source=qr" target="_blank" class="text-gray-500 hover:text-[#E1306C] transition text-2xl">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=61574342103342" target="_blank" class="text-gray-500 hover:text-[#1877F2] transition text-2xl">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://youtube.com/@onlineyogaclassbyshri?si=YA9V1IEIRAr3dVNv" target="_blank" class="text-gray-500 hover:text-[#FF0000] transition text-2xl">
+            <i class="fab fa-youtube"></i>
+        </a>
+    </div>
+</div>
+                    </div>
+                </div>
+
+                <div class="mt-12 space-y-4">
+                    <a href="https://wa.me/919559827280?text=I%20want%20to%20book%20a%20free%20demo%20class" class="block text-center bg-gray-900 text-white py-4 rounded-2xl font-bold hover:bg-black transition shadow-lg">Book Your Free Demo</a>
+                    <p class="text-center text-sm text-gray-500">Available Monday to Friday • Multiple Batches</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#0f172a] text-white py-16 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-12">
+            <div class="space-y-6">
+                <div>
+                    <span class="block text-2xl font-extrabold tracking-tight">SHRINGARIKA.</span>
+                    <span class="text-[10px] uppercase tracking-[0.2em] text-gray-400 font-bold">CLINICAL RESEARCH SPECIALIST</span>
+                </div>
+                <p class="text-gray-400 text-sm leading-relaxed max-w-sm">
+                    Curing Infertility and PCOS naturally by establishing the bridge between ancient Yoga and modern Clinical Science. Serving clients globally from Varanasi to the USA.
+                </p>
+                <div class="space-y-3">
+                    <a href="mailto:onlineyogaclassbyshri@gmail.com" class="flex items-center text-sm text-gray-400 hover:text-white transition">
+                        <i class="fas fa-envelope text-green-500 mr-3"></i> onlineyogaclassbyshri@gmail.com
+                    </a>
+                    <a href="https://onlineyogaclass.in" class="flex items-center text-sm text-gray-400 hover:text-white transition">
+                        <i class="fas fa-globe text-green-500 mr-3"></i> onlineyogaclass.in
+                    </a>
+                </div>
+                <div class="flex space-x-5 pt-2">
+    <a href="https://www.instagram.com/onlineyogaclass.in?igsh=ZTQ0MmUxZXFoN2Vr&utm_source=qr" target="_blank" class="text-gray-400 hover:text-pink-500 text-xl transition">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=61574342103342" target="_blank" class="text-gray-400 hover:text-blue-500 text-xl transition">
+        <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://youtube.com/@onlineyogaclassbyshri?si=YA9V1IEIRAr3dVNv" target="_blank" class="text-gray-400 hover:text-red-500 text-xl transition">
+        <i class="fab fa-youtube"></i>
+    </a>
+    <a href="https://in.linkedin.com/in/shringarika-mishra-400607224" target="_blank" class="text-gray-400 hover:text-blue-700 text-xl transition">
+        <i class="fab fa-linkedin"></i>
+    </a>
+</div>
+            </div>
+
+            <div>
+                <h3 class="font-bold text-xs uppercase tracking-widest mb-8 text-white">NAVIGATION</h3>
+                <ul class="space-y-4 text-sm text-gray-400">
+                    <li><a href="index.html" class="hover:text-white transition">Home</a></li>
+                    <li><a href="about.html" class="hover:text-white transition">About Shringarika</a></li>
+                    <li><a href="programs.html" class="hover:text-white transition">Clinical Programs</a></li>
+                    <li><a href="blogs.html" class="hover:text-white transition">Research & Blogs</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="font-bold text-xs uppercase tracking-widest mb-8 text-white">LEGAL</h3>
+                <ul class="space-y-4 text-sm text-gray-400">
+                    <li><a href="privacy-policy.html" class="hover:text-white transition">Privacy Policy</a></li>
+                    <li><a href="terms.html" class="hover:text-white transition">Terms & Conditions</a></li>
+                    <li><a href="refund.html" class="hover:text-white transition">Refund Policy</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-6 mt-16 pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-6">
+            <p class="text-[11px] text-gray-500 uppercase tracking-widest">
+                &copy; 2026 Shringarika Mishra. All Rights Reserved.
+            </p>
+            <p class="text-[10px] text-gray-600 max-w-2xl text-center md:text-right leading-relaxed">
+            </p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/919559827280?text=I%20want%20to%20start%20my%20healing%20process" class="floating-wa">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="w-16 h-16 shadow-2xl">
+    </a>
+
+<script>
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+const closeMenuButton = document.getElementById('close-menu');
+const mobileMenu = document.getElementById('mobile-menu');
+const body = document.body;
+
+const toggleMenu = (isOpen) => {
+    if (isOpen) {
+        mobileMenu.classList.remove('hidden');
+        body.style.overflow = 'hidden'; // This stops the background from moving
+        requestAnimationFrame(() => {
+            mobileMenu.classList.remove('translate-x-full');
+        });
+    } else {
+        mobileMenu.classList.add('translate-x-full');
+        body.style.overflow = ''; // This lets the background scroll again
+        setTimeout(() => {
+            mobileMenu.classList.add('hidden');
+        }, 300);
+    }
+};
+
+mobileMenuButton.addEventListener('click', () => toggleMenu(true));
+closeMenuButton.addEventListener('click', () => toggleMenu(false));
+</script>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js');
+    });
+  }
+</script>
+ 
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿{
+  "name": "SHRINGARIKA Clinical Yoga",
+  "short_name": "Shringarika",
+  "description": "Clinical yoga for Infertility and PCOS Recovery",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#FFF1F2",
+  "theme_color": "#db2777",
+  "icons": [
+    {
+      "src": "images/logo.webp",
+      "sizes": "192x192",
+      "type": "image/webp"
+    },
+    {
+      "src": "images/logo.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    }
+  ]
+}
